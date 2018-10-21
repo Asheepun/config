@@ -22,6 +22,7 @@ bindsym $mod+Shift+Next exec systemctl suspend
 bindsym $mod+Shift+g exec $term
 bindsym $mod+Shift+Pause exec i3lock -i ~/Pictures/lock.png
 bindsym $mod+Shift+m exec ~/.scripts/switchi3config.sh
+bindsym $mod+Shift+w exec xrandr --output LVDS-1 --off && feh --bg-fill ~/Pictures/background.jpg
 
 bindsym $mod+Return exec $term
 bindsym $mod+a exec audacity
@@ -40,6 +41,7 @@ bindsym $mod+s exec sfxr
 bindsym $mod+ctrl+a exec $term -e alsamixer
 bindsym $mod+ctrl+b exec gvim ~/.bashrc
 bindsym $mod+ctrl+i exec gvim ~/.config/i3/config
+bindsym $mod+ctrl+p exec gvim ~/.profile
 bindsym $mod+ctrl+r exec gvim ~/.config/ranger/rc.conf
 bindsym $mod+ctrl+v exec gvim ~/.vimrc
 bindsym $mod+ctrl+x exec gvim ~/.Xresources
