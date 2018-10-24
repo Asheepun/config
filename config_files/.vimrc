@@ -26,6 +26,9 @@ hi Normal ctermbg=black
 set nocompatible
 filetype on
 
+autocmd Filetype markdown Goyo
+autocmd Filetype markdown nnoremap ss :wqa<Enter>
+
 autocmd Filetype javascript inoremap FF () => {<Enter><Enter>}<Up><Tab>
 autocmd Filetype javascript inoremap II if(){<Enter><Enter>}<Up><Up><Right><Right>
 autocmd Filetype javascript inoremap #I import<Space>from<Space>""<Esc>hhhhhhhi<Space>
