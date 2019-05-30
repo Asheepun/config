@@ -17,6 +17,7 @@ alias gD="cd ~/Downloads"
 alias gs="cd ~/Documents/School"
 alias gS="cd ~/.scripts"
 alias gm="cd ~/Music"
+alias gc="cd ~/.config"
 alias gM="cd /media"
 alias gr="cd /"
 
