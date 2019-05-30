@@ -1,0 +1,111 @@
+{
+   "checksum": "f8eb6094143e5cd4e7c3e6da2a173e9c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13177612977104774",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13190869438785386"
+            },
+            "name": "Palette List",
+            "sync_transaction_version": "7",
+            "type": "url",
+            "url": "https://lospec.com/palette-list"
+         }, {
+            "date_added": "13191199870792249",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13200501756608866"
+            },
+            "name": "Competition | Sweden | Swedish Game Awards",
+            "sync_transaction_version": "47",
+            "type": "url",
+            "url": "https://www.gameawards.se/competition"
+         }, {
+            "date_added": "13191349579442056",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13193603471885337"
+            },
+            "name": "Indie Games Competitions | PixelProspector - the indie goldmine",
+            "sync_transaction_version": "24",
+            "type": "url",
+            "url": "http://www.pixelprospector.com/indie-game-competitions/"
+         }, {
+            "date_added": "13193603486057471",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13202498440965260"
+            },
+            "name": "IndieCade – IndieCade or Indiecade is an international juried festival of independent games.",
+            "sync_transaction_version": "57",
+            "type": "url",
+            "url": "https://www.indiecade.com/"
+         }, {
+            "date_added": "13194974428087373",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13200854635015614"
+            },
+            "name": "IndieCade",
+            "sync_transaction_version": "56",
+            "type": "url",
+            "url": "https://judy.indiecade.com/judy4/developer/entries"
+         }, {
+            "date_added": "13200768647199543",
+            "id": "16",
+            "meta_info": {
+               "last_visited_desktop": "13200768647200093"
+            },
+            "name": "Matias Ergo Pro Keyboard",
+            "sync_transaction_version": "53",
+            "type": "url",
+            "url": "http://matias.ca/ergopro/pc/"
+         }, {
+            "date_added": "13202842871696827",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13202842871697340"
+            },
+            "name": "Linux",
+            "sync_transaction_version": "58",
+            "type": "url",
+            "url": "http://harmful.cat-v.org/software/operating-systems/linux/"
+         }, {
+            "date_added": "13202859887586758",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13203701425508207"
+            },
+            "name": "YouTube",
+            "sync_transaction_version": "268",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         } ],
+         "date_added": "13190084586282710",
+         "date_modified": "13202859887586758",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13190084586282720",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "268",
+      "synced": {
+         "children": [  ],
+         "date_added": "13190084586282721",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

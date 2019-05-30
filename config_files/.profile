@@ -1,8 +1,19 @@
 export PATH=$PATH:~/.scripts
+#programs
+export PATH=$PATH:~/Git-src/st
+export PATH=$PATH:~/Git-src/sent-0.2
+export PATH=$PATH:~/Git-src/sc-im/src
+export PATH=$PATH:~/Git-src/lf
+export PATH=$PATH:~/Git-src/fzf
 
-export EDITOR="vim"
-export TERMINAL="gnome-terminal"
-export BROWSER="chromium-browser"
+export $EDITOR="vim"
+export $TERMINAL="gnome-terminal"
+export $BROWSER="chromium"
+
+alias gP="cd ~/Documents/Projects"
+alias gp="cd ~/Pictures"
+
+alias gitlog="git log"
 
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 	exec startx
@@ -25,3 +36,5 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+export PATH="$HOME/.cargo/bin:$PATH"

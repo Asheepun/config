@@ -7,6 +7,8 @@ call plug#begin()
 	Plug 'kien/ctrlp.vim'
 
 	Plug 'junegunn/goyo.vim'
+	
+	Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 
 call plug#end()
 
@@ -26,17 +28,23 @@ hi Normal ctermbg=black
 set nocompatible
 filetype on
 
-autocmd Filetype markdown Goyo
-autocmd Filetype markdown nnoremap ss :wqa<Enter>
+"autocmd Filetype markdown Goyo
+"autocmd Filetype markdown nnoremap ss :wqa<Enter>
 
+"javascript
 autocmd Filetype javascript inoremap FF () => {<Enter><Enter>}<Up><Tab>
 autocmd Filetype javascript inoremap II if(){<Enter><Enter>}<Up><Up><Right><Right>
 autocmd Filetype javascript inoremap #I import<Space>from<Space>""<Esc>hhhhhhhi<Space>
 
+"html
 autocmd Filetype html inoremap INIT <!DOCTYPE html><Enter><html><Enter><head><Enter></head><Enter><body><Enter></body><Enter></html><Esc>gg
-autocmd Filetype html inoremap <Space><Space> <Esc>bi<<Esc>ea><Esc>ybwpbi</<Esc>ea><Esc>bhhi
 
+"c++
 autocmd Filetype cpp inoremap #I #include<Space><><Esc>i
+autocmd Filetype cpp nnoremap <C-c> :!g++ -lsfml-window -lsfml-graphics -lsfml-system *.cpp -o out && ./out<Enter>
+
+"latex
+let g:livepreview_previewer = "mupdf"
 
 inoremap ( ()<Left>
 inoremap () ()
@@ -47,7 +55,6 @@ inoremap {} {}
 inoremap " ""<Left>
 inoremap "" ""
 
-"nnoremap " hea"<Esc>bi"<Esc>
 nnoremap y "+y
 nnoremap yy "+yy
 nnoremap d "+d

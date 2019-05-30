@@ -1,0 +1,50 @@
+open_with v
+shell touch .muttrc
+shell mkdir .mutt
+shell touch shadow.js
+find m
+shell chmod +x 
+rename loop_screenshot.sh
+shell chmod +x loop_screenshot.sh
+shell touch startscreen.js
+rename q_webpack-bab
+shell mkdir q_webpack-bab-server-test
+shell touch build-bab.sh
+open_with comix
+rename assetes.js
+rename assets.js
+search milk
+shell milk
+rename header.cpp
+rename header.h
+rename greet.cpp
+rename greet.h
+open_with vim
+rename spikes.png
+rename On The Sunny Side Of The Street Benny.mp3
+rename On The Sunny Side Of The Street Esperanza.mp3
+rename sources.list-backup
+rename asheepunr
+
+shell npm i
+shell touch main.js
+rename _ball-sea
+rename xball_sea
+shell mkdir markdown-math-testing
+rename lock-screen.sh
+chmod +x lock-screen.sh
+open_with 
+shell mkdir hej
+open_with
+search air
+search AIR
+shell 
+search Pre
+search Why
+search Non
+search Mass
+bulkrename
+delete
+find 
+search mouse
+search Mouse

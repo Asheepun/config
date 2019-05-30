@@ -1,0 +1,7 @@
+[Added Associations]
+image/jpeg=feh.desktop;display-im6.q16.desktop;gimp.desktop;
+image/png=gimp.desktop;
+text/html=chromium.desktop;
+audio/x-wav=vlc.desktop;
+video/mp4=vlc.desktop;
+text/plain=gvim.desktop;

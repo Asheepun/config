@@ -1,0 +1,27 @@
+add ~/Music/Jazz/Hand-picked/
+clear
+add ~/Music/Jazz/
+a ~/Jazz
+q
+add ~/Music/Jazz/Cuphead-ost/
+add ~/Music/Jazz/Cuphead-ost/playlist.m3u
+help
+a ~/Music/Jazz
+a 
+c
+add ~/Music/Jazz
+a ~/Music/Jazz/playlist.m3u
+shell save ~/Music/Jazz/playlist.m3u
+add ~/Music/Jazz/playlist.m3u
+save
+save -p
+shell add ~/Music/Jazz
+rename hard
+rm
+adddir ~/Music/Jazz
+add ~/Music/Jazz/Putte_to_sleep.mp3
+bind common space win-activate
+win-activate
+bind common space player-pause
+unbind common space
+bind space player-pause

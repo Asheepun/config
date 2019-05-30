@@ -1,0 +1,11 @@
+auto-reload yes
+
+bind-key j down
+bind-key k up
+bind-key h quit
+bind-key l open
+
+bind-key o show-urls
+bind-key ENTER show-urls
+
+external-url-viewer urlview

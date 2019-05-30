@@ -1,0 +1,125 @@
+#defenitions
+set $mod Mod4
+set $term gnome-terminal
+font pango:monospace 8
+floating_modifier $mod
+for_window [class="^.*"] border pixel 0
+for_window [title="cmus"]  floating enable
+for_window [title="bashmount"] floating enable
+for_window [title="feh"] floating enable
+
+#startup programs
+exec --no-startup-id feh --bg-fill ~/Pictures/background.jpg
+#exec --no-startup-id exec compton --backend glx --unredir-if-possible --vsync opengl-swc
+exec setxkbmap -option caps:escape
+exec --no-startup-id sudo rmmod pcspkr
+#exec --no-startup-id st -e newsbeuter
+
+#programs
+bindsym $mod+Insert exec dmenu_run -l 10 -nb '#1e1e1e' -sf '#1e1e1e' -sb '#f4800d' -nf '#F4800d'
+
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+Home exec i3-msg exit
+bindsym $mod+Shift+End exec sudo poweroff
+bindsym $mod+Shift+Delete exec sudo reboot
+bindsym $mod+Shift+Next exec systemctl suspend
+bindsym $mod+Shift+g exec $term
+bindsym $mod+Shift+Pause exec i3lock -i ~/Pictures/lock.png
+#bindsym $mod+Shift+Pause exec ~/.scripts/lock-screen.sh
+bindsym $mod+Shift+m exec ~/.scripts/switchi3config.sh
+bindsym $mod+Shift+w exec xrandr --output LVDS-1 --off && feh --bg-fill ~/Pictures/background.jpg
+
+bindsym $mod+Return exec $term
+bindsym $mod+a exec audacity
+bindsym $mod+c exec $term -e calcurse
+bindsym $mod+e exec thunderbird
+bindsym $mod+g exec gimp
+bindsym $mod+i exec ~/Downloads/krita.appimage
+bindsym $mod+m exec $term -e cmus
+bindsym $mod+n exec $term -e wifi-connect.sh
+bindsym $mod+o exec chromium
+bindsym $mod+Shift+o exec $term -e newsbeuter
+bindsym $mod+p exec gvim ~/.pass
+bindsym $mod+Shift+p exec ~/.scripts/setup-dev-env.sh
+bindsym $mod+r exec $term -e record-screen.sh
+bindsym $mod+s exec sfxr
+bindsym $mod+t exec deluge
+bindsym $mod+u exec $term -e ~/.scripts/bashmount/bashmount
+
+#configs
+bindsym $mod+ctrl+a exec $term -e alsamixer
+bindsym $mod+ctrl+b exec gvim ~/.bashrc
+bindsym $mod+ctrl+i exec gvim ~/.config/i3/config
+bindsym $mod+ctrl+p exec gvim ~/.profile
+bindsym $mod+ctrl+r exec gvim ~/.config/ranger/rc.conf
+bindsym $mod+ctrl+v exec gvim ~/.vimrc
+bindsym $mod+ctrl+x exec gvim ~/.Xresources
+
+#movement & window managment
+bindsym $mod+Shift+q kill
+
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+b split h
+bindsym $mod+v split v
+
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+
+bindsym $mod+Shift+f fullscreen toggle
+
+#workspace names
+set $workspace1 "1:Pepe"
+set $workspace2 "2:Totoro"
+set $workspace3 "3:Pingo"
+set $workspace4 "4:Skurt"
+set $workspace5 "5:Touluse"
+set $workspace6 "6:Chad"
+
+# switch to workspace
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $workspace1
+bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+3 move container to workspace $workspace3
+bindsym $mod+Shift+4 move container to workspace $workspace4
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
+
+#resize
+#bindsym $mod+Shift+y resize shrink width 10 px or 10 ppt
+#bindsym $mod+Shift+u resize grow height 10 px or 10 ppt
+#bindsym $mod+Shift+i resize shrink height 10 px or 10 ppt
+#bindsym $mod+Shift+o resize grow width 10 px or 10 ppt
+
+#bar
+bar {
+
+	status_command i3blocks
+
+	font pango: Mono 8
+	
+	colors {
+		background #1d2021
+		separator #282828
+		statusline #f2e5bc
+
+		focused_workspace #076678 #076678 #f2e5bc
+		inactive_workspace #282828 #282828 #f2e5bc
+		urgent_workspace #9d0006 #9d0006 #f2e5bc
+	}
+}
