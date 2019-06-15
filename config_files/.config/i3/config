@@ -4,7 +4,7 @@ set $term gnome-terminal
 font pango:monospace 8
 floating_modifier $mod
 for_window [class="^.*"] border pixel 0
-for_window [title="cmus"]  floating enable
+for_window [title="ncmpcpp"]  floating enable
 for_window [title="bashmount"] floating enable
 for_window [title="feh"] floating enable
 
@@ -13,6 +13,7 @@ exec --no-startup-id feh --bg-fill ~/Pictures/background.jpg
 #exec --no-startup-id exec compton --backend glx --unredir-if-possible --vsync opengl-swc
 exec setxkbmap -option caps:escape
 exec --no-startup-id sudo rmmod pcspkr
+#exec --no-startup-id urxvtd
 #exec --no-startup-id st -e newsbeuter
 
 #programs
@@ -35,7 +36,7 @@ bindsym $mod+c exec $term -e calcurse
 bindsym $mod+e exec thunderbird
 bindsym $mod+g exec gimp
 bindsym $mod+i exec ~/Downloads/krita.appimage
-bindsym $mod+m exec $term -e cmus
+bindsym $mod+m exec $term -e ncmpcpp
 bindsym $mod+n exec $term -e wifi-connect.sh
 bindsym $mod+o exec chromium
 bindsym $mod+Shift+o exec $term -e newsbeuter
@@ -45,6 +46,13 @@ bindsym $mod+r exec $term -e record-screen.sh
 bindsym $mod+s exec sfxr
 bindsym $mod+t exec deluge
 bindsym $mod+u exec $term -e ~/.scripts/bashmount/bashmount
+
+#music
+bindsym $mod+ctrl+Shift+plus exec mpc volume +5
+bindsym $mod+ctrl+Shift+minus exec mpc volume -5
+bindsym $mod+ctrl+Shift+space exec mpc toggle
+bindsym $mod+ctrl+Shift+n exec mpc next
+bindsym $mod+ctrl+Shift+p exec mpc prev
 
 #configs
 bindsym $mod+ctrl+a exec $term -e alsamixer
@@ -63,7 +71,7 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
-bindsym $mod+Shift+h move left
+bindsym $mod+ctrl+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right

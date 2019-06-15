@@ -1,0 +1,19 @@
+sw_volume: 100
+audio_device_state:1:default detected output
+state: play
+current: 2
+time: 89.234000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Jazz/Hand-picked/swing/I got rhythm.mp3
+1:Jazz/Hand-picked/swing/Sing Sing Sing.mp3
+2:Jazz/Hand-picked/swing/That's a plenty.mp3
+3:Jazz/Hand-picked/swing/The Lady Is A Tramp.mp3
+4:Jazz/Hand-picked/swing/It don't mean a thing.mp3
+playlist_end

@@ -1,7 +1,3 @@
-open_with v
-shell touch .muttrc
-shell mkdir .mutt
-shell touch shadow.js
 find m
 shell chmod +x 
 rename loop_screenshot.sh
@@ -43,8 +39,12 @@ search Pre
 search Why
 search Non
 search Mass
-bulkrename
-delete
 find 
 search mouse
 search Mouse
+bulkrenane
+bulkrename
+shell mkdir coffee
+delete
+shell mkdir swing
+rename misc

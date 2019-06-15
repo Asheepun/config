@@ -5,6 +5,7 @@ export PATH=$PATH:~/Git-src/sent-0.2
 export PATH=$PATH:~/Git-src/sc-im/src
 export PATH=$PATH:~/Git-src/lf
 export PATH=$PATH:~/Git-src/fzf
+export PATH=$PATH:~/Git-src/Discord
 
 export $EDITOR="vim"
 export $TERMINAL="gnome-terminal"

@@ -21,6 +21,10 @@ alias gc="cd ~/.config"
 alias gM="cd /media"
 alias gr="cd /"
 
+alias oi='sxiv "$(fzf)"'
+alias oia="sxiv -r ."
+alias ov='vlc "$(fzf)"'
+
 alias gitlog="git --no-pager log --oneline"
 
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then

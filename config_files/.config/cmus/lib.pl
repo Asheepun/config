@@ -1,4 +1,5 @@
 /home/asheepun/Music/Jazz/Hand-picked/hard/Floral Fury.mp3
+/home/asheepun/Music/Jazz/Hand-picked/hard/Gunslinging Bird.mp3
 /home/asheepun/Music/Jazz/Hand-picked/hard/High Seas Hi-Jinx.mp3
 /home/asheepun/Music/Jazz/Hand-picked/hard/Moanin.mp3
 /home/asheepun/Music/Jazz/Hand-picked/hard/Ruze of An Ooze.mp3

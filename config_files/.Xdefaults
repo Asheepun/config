@@ -1,0 +1,67 @@
+!font settings
+URxvt.font: xft:Monospace:size=11
+!URxvt.font: xft:Monospace:pixelsize:14
+!URxvt.font: -*-rissole-*
+!URxvt.font: xft:Inconsolata:pixelsize=16
+!URxvt.font: 9x15
+URxvt.letterSpace: -2
+
+!Xft settings
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: subpixel
+
+!general
+URxvt.iso14755: false
+URxvt.scrollBar: false
+
+!extensions
+URxvt.perl-ext-common: default,matcher,keyboard-select,clipboard,url-select,font-size
+
+!keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keyboard-select.clipboard: true
+
+!clipboard
+URxvt.clipboard.autocopy: true
+
+!url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.underlineURLs: true
+URxvt.colorUL: #83a598
+
+!font-size
+URxvt.keysym.C-Up: perl:font-size:increase
+URxvt.keysym.C-Down: perl:font-size:decrease
+URxvt.keysym.C-equal: perl:font-size:reset
+
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2

@@ -17,6 +17,7 @@ set nu
 set tabstop=4
 ""syntax on
 set shiftwidth=4
+set spelllang=sv
 
 " theme
 set t_Co=256
