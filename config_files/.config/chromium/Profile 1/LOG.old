@@ -1,5 +1,9 @@
-2019/06/09-19:27:32.667 5cf6 Recovering log #839
-2019/06/09-19:27:32.667 5cf6 Level-0 table #841: started
-2019/06/09-19:27:32.673 5cf6 Level-0 table #841: 625 bytes OK
-2019/06/09-19:27:32.685 5cf6 Delete type=0 #839
-2019/06/09-19:27:32.685 5cf6 Delete type=3 #837
+2019/07/29-17:05:44.630 6ff Recovering log #890
+2019/07/29-17:05:44.630 6ff Level-0 table #892: started
+2019/07/29-17:05:44.635 6ff Level-0 table #892: 549 bytes OK
+2019/07/29-17:05:44.646 6ff Delete type=2 #889
+2019/07/29-17:05:44.647 6ff Delete type=2 #878
+2019/07/29-17:05:44.647 6ff Delete type=2 #865
+2019/07/29-17:05:44.647 6ff Delete type=0 #890
+2019/07/29-17:05:44.647 6ff Delete type=3 #888
+2019/07/29-17:05:44.647 6ff Delete type=2 #883

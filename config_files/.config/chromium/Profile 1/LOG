@@ -1,25 +1,5 @@
-2019/06/12-16:20:57.059 38f5 Recovering log #842
-2019/06/12-16:20:57.059 38f5 Level-0 table #844: started
-2019/06/12-16:20:57.064 38f5 Level-0 table #844: 646 bytes OK
-2019/06/12-16:20:57.075 38f5 Delete type=3 #840
-2019/06/12-16:20:57.075 38f5 Delete type=0 #842
-2019/06/12-16:20:57.081 8e9 Moved #844 to level-1 646 bytes OK: files[ 3 4 1 0 0 0 0 ]
-2019/06/12-20:11:57.231 8e9 Level-0 table #847: started
-2019/06/12-20:11:57.237 8e9 Level-0 table #847: 8474 bytes OK
-2019/06/12-20:11:57.243 8e9 Delete type=0 #845
-2019/06/12-20:27:12.013 8e9 Level-0 table #849: started
-2019/06/12-20:27:12.021 8e9 Level-0 table #849: 8470 bytes OK
-2019/06/12-20:27:12.027 8e9 Delete type=0 #846
-2019/06/12-20:42:23.276 8e9 Level-0 table #851: started
-2019/06/12-20:42:23.290 8e9 Level-0 table #851: 8460 bytes OK
-2019/06/12-20:42:23.296 8e9 Delete type=0 #848
-2019/06/12-20:42:23.296 8e9 Compacting 1@0 + 1@1 files
-2019/06/12-20:42:23.300 8e9 Generated table #852@0: 1 keys, 491 bytes
-2019/06/12-20:42:23.300 8e9 Compacted 1@0 + 1@1 files => 491 bytes
-2019/06/12-20:42:23.305 8e9 compacted to: files[ 3 5 2 0 0 0 0 ]
-2019/06/12-20:42:23.306 8e9 Delete type=2 #849
-2019/06/12-20:42:23.306 8e9 Delete type=2 #851
-2019/06/12-20:57:39.775 8e9 Level-0 table #854: started
-2019/06/12-20:57:39.783 8e9 Level-0 table #854: 8445 bytes OK
-2019/06/12-20:57:39.789 8e9 Delete type=0 #850
-2019/06/12-20:57:39.794 8e9 Moved #835 to level-1 477 bytes OK: files[ 3 6 2 0 0 0 0 ]
+2019/08/03-16:49:50.536 763 Recovering log #893
+2019/08/03-16:49:50.536 763 Level-0 table #895: started
+2019/08/03-16:49:50.540 763 Level-0 table #895: 553 bytes OK
+2019/08/03-16:49:50.552 763 Delete type=3 #891
+2019/08/03-16:49:50.552 763 Delete type=0 #893

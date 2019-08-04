@@ -1,3 +1,3 @@
-2019/06/15-11:55:25.907 27fa Reusing MANIFEST /home/asheepun/.config/chromium/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/06/15-11:55:25.907 27fa Recovering log #3
-2019/06/15-11:55:25.909 27fa Reusing old log /home/asheepun/.config/chromium/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2019/07/31-01:13:12.834 4857 Reusing MANIFEST /home/asheepun/.config/chromium/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/07/31-01:13:12.834 4857 Recovering log #3
+2019/07/31-01:13:12.840 4857 Reusing old log /home/asheepun/.config/chromium/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 

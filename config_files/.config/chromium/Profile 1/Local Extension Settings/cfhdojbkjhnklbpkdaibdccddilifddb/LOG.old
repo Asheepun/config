@@ -1,6 +1,9 @@
-2019/06/15-14:45:56.098 1d35 Reusing MANIFEST /home/asheepun/.config/chromium/Profile 1/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
-2019/06/15-14:45:56.100 1d35 Recovering log #8471
-2019/06/15-14:45:56.100 1d35 Reusing old log /home/asheepun/.config/chromium/Profile 1/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/008471.log 
-2019/06/15-14:46:57.334 1f66 Level-0 table #8475: started
-2019/06/15-14:46:57.404 1f66 Level-0 table #8475: 4222816 bytes OK
-2019/06/15-14:46:57.409 1f66 Delete type=0 #8471
+2019/08/04-17:55:34.653 1fdd Reusing MANIFEST /home/asheepun/.config/chromium/Profile 1/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2019/08/04-17:55:34.656 1fdd Recovering log #10864
+2019/08/04-17:55:34.657 1fdd Reusing old log /home/asheepun/.config/chromium/Profile 1/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/010864.log 
+2019/08/04-17:56:35.879 2152 Level-0 table #10868: started
+2019/08/04-17:56:35.945 2152 Level-0 table #10868: 4311746 bytes OK
+2019/08/04-17:56:35.950 2152 Delete type=0 #10864
+2019/08/04-18:06:56.621 2152 Level-0 table #10870: started
+2019/08/04-18:06:56.685 2152 Level-0 table #10870: 4311813 bytes OK
+2019/08/04-18:06:56.690 2152 Delete type=0 #10867

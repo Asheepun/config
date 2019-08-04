@@ -1,21 +1,6 @@
-find m
-shell chmod +x 
-rename loop_screenshot.sh
-shell chmod +x loop_screenshot.sh
-shell touch startscreen.js
-rename q_webpack-bab
-shell mkdir q_webpack-bab-server-test
-shell touch build-bab.sh
-open_with comix
-rename assetes.js
-rename assets.js
-search milk
-shell milk
-rename header.cpp
 rename header.h
 rename greet.cpp
 rename greet.h
-open_with vim
 rename spikes.png
 rename On The Sunny Side Of The Street Benny.mp3
 rename On The Sunny Side Of The Street Esperanza.mp3
@@ -29,7 +14,6 @@ rename xball_sea
 shell mkdir markdown-math-testing
 rename lock-screen.sh
 chmod +x lock-screen.sh
-open_with 
 shell mkdir hej
 open_with
 search air
@@ -45,6 +29,22 @@ search Mouse
 bulkrenane
 bulkrename
 shell mkdir coffee
-delete
 shell mkdir swing
 rename misc
+rename index.html
+open_with 
+rename int
+rename intrestnstuationelisto.jpg
+rename defektingmycrowavewithbois.jpg
+rename sometin.png
+rename turninondegaspedalramseymayby.png
+rename t.png
+rename rasistendotubsies.png
+rename swiggitbiggiytreporterlikeyeschlnd.png
+rename nuspannerdetibrannal.png
+rename Body & Soul - Esperanza
+rename Body & Soul - Esperanza.mp3
+rename Helvetica-Normal.ttf
+open_with vim
+delete
+search mpd

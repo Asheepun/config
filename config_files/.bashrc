@@ -26,6 +26,7 @@ alias oia="sxiv -r ."
 alias ov='vlc "$(fzf)"'
 
 alias gitlog="git --no-pager log --oneline"
+alias youtube-dl-audio="youtube-dl --extract-audio --audio-format=mp3"
 
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)

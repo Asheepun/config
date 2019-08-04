@@ -1,8 +1,8 @@
+drive=$(ls /dev | grep "sdb[0-9]" | dmenu)
+
 sudo mkdir -v /media/asheepun/backup-drive
 
-sudo mount -v /dev/sdb1 /media/asheepun/backup-drive
-
-sudo mkdir /home/
+sudo mount -v /dev/$drive /media/asheepun/backup-drive
 
 sudo tar czfv /home/tmp-backup.tar.gz /home/asheepun/
 
